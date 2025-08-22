@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6º Congresso Internacional SPF - 1-3 Setembro 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-size: 11px;
+            line-height: 1.3;
+            color: #2c3e50;
+            background: white;
+            padding: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 18px;
+            color: #1a252f;
+            margin-bottom: 8px;
+            text-align: center;
+            border-bottom: 2px solid #34495e;
+            padding-bottom: 5px;
+        }
+        
+        h2 {
+            font-size: 14px;
+            color: #fff;
+            background: #34495e;
+            padding: 4px 8px;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+        
+        h3 {
+            font-size: 12px;
+            color: #2c3e50;
+            background: #ecf0f1;
+            padding: 3px 6px;
+            margin: 8px 0 4px 0;
+            font-weight: bold;
+        }
+        
+        .info-header {
+            background: #f8f9fa;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-left: 3px solid #7f8c8d;
+        }
+        
+        .info-header p {
+            margin: 2px 0;
+        }
+        
+        .keynote {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 6px 8px;
+            margin: 6px 0;
+        }
+        
+        .keynote strong {
+            color: #2980b9;
+        }
+        
+        .session-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 8px;
+            margin: 6px 0;
+        }
+        
+        .session-box {
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 5px;
+            font-size: 10px;
+        }
+        
+        .session-box h4 {
+            font-size: 11px;
+            color: #fff;
+            background: #7f8c8d;
+            margin: -5px -5px 4px -5px;
+            padding: 3px 5px;
+            font-weight: normal;
+        }
+        
+        .presenter {
+            margin: 3px 0;
+            padding-left: 8px;
+            border-left: 2px solid #bdc3c7;
+        }
+        
+        .presenter-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .presenter-affiliation {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .presenter-title {
+            color: #34495e;
+            margin-top: 1px;
+        }
+        
+        .time-slot {
+            font-weight: bold;
+            color: #c0392b;
+            margin: 6px 0 2px 0;
+        }
+        
+        .break {
+            background: #fff3cd;
+            padding: 3px 6px;
+            margin: 4px 0;
+            color: #856404;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .special-event {
+            background: #d4edda;
+            padding: 4px 8px;
+            margin: 6px 0;
+            color: #155724;
+            border-left: 3px solid #28a745;
+        }
+        
+        @media print {
+            body {
+                font-size: 9px;
+                padding: 5px;
+            }
+            h1 { font-size: 14px; }
+            h2 { font-size: 11px; }
+            h3 { font-size: 10px; }
+            .session-box { font-size: 8px; }
+            .session-box h4 { font-size: 9px; }
+        }
+        
+        .compact-list {
+            columns: 2;
+            column-gap: 15px;
+            margin: 4px 0;
+        }
+        
+        .compact-list li {
+            break-inside: avoid;
+            margin: 2px 0;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <h1>6º Congresso Internacional da Sociedade Portuguesa de Filosofia</h1>
+    
+    <div class="info-header">
+        <p><strong>Data:</strong> 1-3 Setembro 2025 | <strong>Local:</strong> Faculdade de Letras, Universidade de Lisboa</p>
+        <p><strong>Oradores Convidados:</strong> Genia Schönbaumsfeld (Southampton), João Carlos Salles (UFBA), Olga Pombo (ULisboa), Viriato Soromenho-Marques (ULisboa)</p>
+        <p><strong>Organização:</strong> SPF + Centro de Filosofia da ULisboa | <strong>Web:</strong> spfil.pt/6congresso | <strong>Email:</strong> spfil@spfil.pt</p>
+    </div>
+
+    <h2>DIA 1 - SETEMBRO</h2>
+    
+    <div class="time-slot">08:30-09:00 - Registo</div>
+    
+    <div class="time-slot">09:00-09:30 - Abertura (Anfiteatro I)</div>
+    
+    <div class="keynote">
+        <div class="time-slot">09:30-10:30 - Sessão Plenária (Anfiteatro I)</div>
+        <strong>Viriato Soromenho-Marques</strong> (ULisboa) | Moderador: Ricardo Santos
+    </div>
+    
+    <div class="break">10:30-11:00 - Coffee Break</div>
+    
+    <h3>11:00-13:00 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Elettra Repetto</span> <span class="presenter-affiliation">(U. Piemonte)</span>
+                <div class="presenter-title">Green lies, black deeds. Consumers in the greenwashing trap</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Hugo Rajão</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">Does a good life require good work? The potentials and limitations of Workplace Democracy for Improving Workers' Well-Being or Redefining Work Centrality</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Dorina Pătrunsu</span> <span class="presenter-affiliation">(U. Bucharest)</span>
+                <div class="presenter-title">Political philosopher or political activist? Some normative constraints regarding the philosopher's voice in democracy</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Eduardo Riesco</span> <span class="presenter-affiliation">(UAM)</span>
+                <div class="presenter-title">The darker side of psychiatry: complementing the Foucaultian approach to psychiatric power through Giorgio Agamben's biopolitics</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - HISTÓRIA FILOSOFIA ANTIGA/MEDIEVAL</h4>
+            <div class="presenter">
+                <span class="presenter-name">Encarnación Callejón</span> <span class="presenter-affiliation">(U. Granada)</span>
+                <div class="presenter-title">La obra filosófica de Saadia ben Yosef al-Fayumi y la posibilidad de una ética más allá del judaísmo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Fabricio Fernandes</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">O mito de Sísifo: a vida e a felicidade nos limites de uma existência atélica.</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Klédson de Souza</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">A regra de ouro no pensamento de Nicolau de Cusa (1401-1464)</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Giovanna Feitosa</span> <span class="presenter-affiliation">(UNILA)</span>
+                <div class="presenter-title">Para uma nova leitura sobre Epicuro: Fundamentos para uma teoria cognitiva</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - ÉTICA E BIOÉTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Shiqi Wang</span> <span class="presenter-affiliation">(U. Manchester)</span>
+                <div class="presenter-title">Future Work Without Exploitation: Marx's Vision of Meaningful and Unalienated Labor in a Post-Capitalism Society.</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Atus Mariqueo-Russell</span> <span class="presenter-affiliation">(Wuhan U.)</span>
+                <div class="presenter-title">Misery as disabling condition on big picture happiness</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Dannish Kashmiri</span> <span class="presenter-affiliation">(Independent)</span>
+                <div class="presenter-title">Constructive Realism</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Keven Bisson</span> <span class="presenter-affiliation">(McGill U.)</span>
+                <div class="presenter-title">Vague orderings and Discounting Timidity</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - HISTÓRIA FILOSOFIA MODERNA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Edmilson Menezes</span> <span class="presenter-affiliation">(UFS)</span>
+                <div class="presenter-title">Progresso versus decadência do mundo: Bacon e a tradição hermética</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Inês Ferreira</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Kant, leitor de Rousseau: O conflito entre cultura e natureza e os contributos de Rousseau para a meditação kantiana</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">João Hokama</span> <span class="presenter-affiliation">(UNICAMP)</span>
+                <div class="presenter-title">A "marca da verdade empírica" na Crítica da Razão Pura</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Pedro Farhat</span> <span class="presenter-affiliation">(USP)</span>
+                <div class="presenter-title">Kant e Lucrécio: vida e morte</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - FILOSOFIA NATUREZA/AMBIENTE</h4>
+            <div class="presenter">
+                <span class="presenter-name">Guido Verstraeten</span> <span class="presenter-affiliation">(Finland)</span>
+                <div class="presenter-title">Entropy production of ecosystems as criterion for Ecocentric Ecofeminist Ethics of the Land</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Jonas Van Vossole</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Ecologia e Consciencia de Classe</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Marcos Panciera</span> <span class="presenter-affiliation">(UFSM)</span>
+                <div class="presenter-title">Living in a Devaluing World: Ontological and Axiological Consequences from the Capitalocene</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">David Lizama</span> <span class="presenter-affiliation">(U. Edinburgh)</span>
+                <div class="presenter-title">Mitigation Strategies for Values and the New Demarcation Problem</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="break">13:00 - ALMOÇO (Livre)</div>
+    
+    <h3>14:30-16:30 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Sabina Tortorella</span> <span class="presenter-affiliation">(U. Namur)</span>
+                <div class="presenter-title">Alexandre Kojève théoricien et acteur de la politique internationale</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Marcela Uchôa</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Imperialismo, colonialismo e a aliança entre a ralé e o capital em Hannah Arendt</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Pedro Martins</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">Revisão crítica da teoria meritocrática da justiça de Thomas Mulligan</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Sérgio Cortinhas</span> <span class="presenter-affiliation">(USC)</span>
+                <div class="presenter-title">Liberdade, Igualdade e Educação Democrática - A democracia tem futuro ou é um caso perdido?</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - ESTÉTICA E FILOSOFIA DA ARTE</h4>
+            <div class="presenter">
+                <span class="presenter-name">Moirika Reker, Rui Rego</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Atenção e cuidado. Cultivar o estético na esfera pública</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Tiago Sousa</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">Como pode o improvisador errar? A importância da noção de erro para a ontologia da improvisação musical</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Luciano Façanha</span> <span class="presenter-affiliation">(UFMA)</span>
+                <div class="presenter-title">Filosofia e Literatura: Gênese e estrutura do romance filosófico a partir da autobiografia de Rousseau</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Helena Carvalho</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">No limite da visão e da palavra - a literatura, ou o pensamento como delírio e gaguez.</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - FILOSOFIA E GÉNERO</h4>
+            <div class="presenter">
+                <span class="presenter-name">Ana Cláudia Barbosa</span> <span class="presenter-affiliation">(U. Porto)</span>
+                <div class="presenter-title">O Regresso das Deusas: Mitologia, Feminismo e Subjetividade Digital no Imaginário Contemporâneo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Barbara Barbosa</span> <span class="presenter-affiliation">(UFMA)</span>
+                <div class="presenter-title">Mulheres em Momentos de Ruptura: Gênero, Filosofia e Participação Feminina nas Revoluções Francesas e na Independência Brasileira</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Maria do Céu Pires</span> <span class="presenter-affiliation">(U. Évora)</span>
+                <div class="presenter-title">Mulheres e espaço público: feminismo e jornalismo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Teresa Nunes</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Espelho Meu, Espelho Meu - Uma abordagem ecofeminista do líquido na atualidade recente</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - FILOSOFIA FENOMENOLÓGICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Bruno Morais</span> <span class="presenter-affiliation">(UFES)</span>
+                <div class="presenter-title">A Unidade Substancial: Uma análise da pessoa humana a partir da antropologia filosófica de Edith Stein.</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">João Amorety</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">O caráter temporal da crítica à filosofia teorética no jovem Heidegger</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Leonor Reis</span> <span class="presenter-affiliation">(CIEBA/FBAUL)</span>
+                <div class="presenter-title">A arte, apesar dela. A implicação da arte em E. Levinas</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Maria Pacheco</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Arte e Cibernética</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - FILOSOFIA DA CIÊNCIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Jerzy Gołosz</span> <span class="presenter-affiliation">(Jagiellonian U.)</span>
+                <div class="presenter-title">Some Remarks on the Relations between Metaphysics and Science</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">João Pinheiro</span> <span class="presenter-affiliation">(Independent)</span>
+                <div class="presenter-title">Revamping the Linguistic Approach to Conceptualising Morality</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Rui Silva</span> <span class="presenter-affiliation">(U. Açores)</span>
+                <div class="presenter-title">Virtue epistemology and philosophy of science</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Saúl Arias</span> <span class="presenter-affiliation">(U. Valladolid)</span>
+                <div class="presenter-title">Causal and non-causal narratives in the historical sciences</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="break">16:30-17:00 - Coffee Break</div>
+    
+    <h3>17:00-19:00 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">André Campos</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">O Desafio Intertemporal ao Realismo Político</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Bruno Bré</span> <span class="presenter-affiliation">(U. Porto)</span>
+                <div class="presenter-title">Uma reflexão em torno do risco de deflação da democracia</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Afonso Silva</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">A legitimidade do poder político como "direito ao exercício": entre Sergio Cotta e Allen Buchanan</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Ana Monteiro</span> <span class="presenter-affiliation">(Independent)</span>
+                <div class="presenter-title">A atmosfera como Arquitetura Política – A genealogia do atmoterrorismo na obra Terror from the Air, de Sloterdijk</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - ÉTICA E BIOÉTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Mariana Sousa</span> <span class="presenter-affiliation">(ISCTE)</span>
+                <div class="presenter-title">A norma e o biopoder no envelhecimento: interseções entre Canguilhem e Foucault</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Abel Abejas</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Nova clínica do algoritmo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Luís Mendes</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Kierkegaard e Murdoch, sobre a visão moral</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Simona Lorenzano</span> <span class="presenter-affiliation">(U. Catania)</span>
+                <div class="presenter-title">¿Qué humaniza al cuerpo humano? Ortega y Gasset y Flusser sobre la corporeidad</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - HISTÓRIA FILOSOFIA MODERNA</h4>
+            <div class="presenter">
+                <span class="presenter-name">André Perez</span> <span class="presenter-affiliation">(MLU Halle)</span>
+                <div class="presenter-title">Christian Wolff e o objeto da Ontologia</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Laurenz Ramsauer</span> <span class="presenter-affiliation">(U. Chicago)</span>
+                <div class="presenter-title">Kant's Dialectic of Enlightenment</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Viorel Vizureanu</span> <span class="presenter-affiliation">(U. Bucharest)</span>
+                <div class="presenter-title">Transhumanism and Modern Philosophy</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Noel Boulting</span> <span class="presenter-affiliation">(Noboss)</span>
+                <div class="presenter-title">We do not Reproduce the Past: We Create it</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - METAFÍSICA E ONTOLOGIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Aviv Hoffmann</span> <span class="presenter-affiliation">(Hebrew U.)</span>
+                <div class="presenter-title">Veritas in Absentia: Ontological Perspectives on Truth</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Hugo Luzio</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Human Animals and Their Corpses</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">James Ross</span> <span class="presenter-affiliation">(U. Southampton)</span>
+                <div class="presenter-title">The Single-Genus View of Grounding and Causation</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - FILOSOFIA FENOMENOLÓGICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Masatoshi Sasaki</span> <span class="presenter-affiliation">(NIT Kochi)</span>
+                <div class="presenter-title">Is Patriotism a Virtue? A Phenomenological Reflection of Patriotism</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Germana Alberti</span> <span class="presenter-affiliation">(Tor Vergata)</span>
+                <div class="presenter-title">Présence primitive, présence originaire : sur la notion de corps vécu et de corps organique dans la phénoménologie</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Paulina Guzmán</span> <span class="presenter-affiliation">(Leiden/PUC Chile)</span>
+                <div class="presenter-title">Art and Pre-Subjectivity: On the Ontological Necessity of Expressive Existence in Merleau-Ponty</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Rita Lobo</span> <span class="presenter-affiliation">(Psychologist)</span>
+                <div class="presenter-title">Double bookkeeping and paradoxical multiple selves</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>DIA 2 - SETEMBRO</h2>
+    
+    <div class="keynote">
+        <div class="time-slot">09:00-10:00 - Sessão Plenária (Anfiteatro I)</div>
+        <strong>João Carlos Salles</strong> (UFBA) | Moderador: Nuno Venturinha
+    </div>
+    
+    <div class="break">10:00-10:30 - Coffee Break</div>
+    
+    <h3>10:30-12:30 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Filipe Faria</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">A Invalidade da Dicotomia Esquerda/Direita</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Giovanni Damele</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">Maquiavel contemporâneo: entre "democracia radical" e realismo político</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Lucas Dias</span> <span class="presenter-affiliation">(IFCE/UECE)</span>
+                <div class="presenter-title">Ser-do-mundo e reconciliação com o mundo no pensamento de Hannah Arendt</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Joana Pinto</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">What Public Reason Demands of Political Parties? A Brief Comparative Theoretical Analysis</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - METAFÍSICA E ONTOLOGIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Eduardo Machado</span>
+                <div class="presenter-title">Monismo-contributo a partir da Singularidade Inicial</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">João Cruz</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">Entre Pessoa e Heidegger: apontamentos sobre a inautenticidade e a quotidianidade</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">José Beato</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Tempo, temporalidade e temporalização: rearticulando o problema do tempo com Jankélévitch, Romano e Wolff.</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Mário Cardoso</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">A saúde metafísica do ser na proposta de revitalização da vita contemplativa de Byung-Chul Han</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - FILOSOFIA DA LINGUAGEM</h4>
+            <div class="presenter">
+                <span class="presenter-name">Adrian Briciu</span> <span class="presenter-affiliation">(West U. Timisoara)</span>
+                <div class="presenter-title">Public artifacts and Communicative Affordances</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Kamil Cekiera</span> <span class="presenter-affiliation">(U. Wrocław)</span>
+                <div class="presenter-title">Non-representationalism, meaning directives, and conceptual engineering</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Gianluca Vieira</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">O sentido e o sem-sentido em Deleuze e Wittgenstein</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Izabela Loner</span> <span class="presenter-affiliation">(UNICAMP)</span>
+                <div class="presenter-title">Estrutura, paradoxo e limite na concepção de linguagem de Jacques Lacan</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - EPISTEMOLOGIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Bensu Altunsoy</span> <span class="presenter-affiliation">(Yeditepe U.)</span>
+                <div class="presenter-title">Clockwork and Flow: Kant and Bergson on the Structure of Experience</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Bin Zhao</span> <span class="presenter-affiliation">(Peking U.)</span>
+                <div class="presenter-title">Contextualism, Sensitivity, and Skepticism</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Denizalp Şimşek</span> <span class="presenter-affiliation">(Yeditepe U.)</span>
+                <div class="presenter-title">Epistemology of Ego Death: A Kantian Reading of Nietzsche's The Birth of Tragedy</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - SESSÃO TEMÁTICA: O Ensaio na era da IA</h4>
+            <div class="presenter">
+                <span class="presenter-name">João Cachopo</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">O ensaio como vocação [no painel "O ensaio na era da inteligência artificial"]</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Pedro Duarte</span> <span class="presenter-affiliation">(PUC-Rio)</span>
+                <div class="presenter-title">Ensaio, autonomia e automatismo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Golgona Anghel</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">Perguntar, ignorar</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="break">12:30 - ALMOÇO</div>
+    
+    <h3>14:00-16:00 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Inês Pinheiro</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">As Nuances da Vulnerabilidade Política: Um Diálogo entre Hannah Arendt e Judith Shklar</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">André Mendes</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">A Desconstrução ou o para além da paz</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">José Filho</span> <span class="presenter-affiliation">(IFPR)</span>
+                <div class="presenter-title">O papel das instituições no léxico foucaultiano</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">João da Palma</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Política sem Porquê: abgrund, diferença ontológica e o político após Heidegger</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - EPISTEMOLOGIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Domingos Faria</span> <span class="presenter-affiliation">(U. Porto)</span>
+                <div class="presenter-title">A "collective turn" in religious epistemology</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">André Kfouri</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">Anscombe's Social Epistemology</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Daniel Debarry</span> <span class="presenter-affiliation">(Leipzig/USP)</span>
+                <div class="presenter-title">Conceptual capacities and the function of judgment in the Travis-McDowell Debate</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Juliana Moroni</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Análise epistemológica de processos de geração de conflitos na opinião pública: o papel dos algoritmos discriminatórios</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - FENOMENOLOGIA / SESSÃO TEMÁTICA LEVINAS</h4>
+            <div class="presenter">
+                <span class="presenter-name">Thaís Oliveira</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">A Corporalidade no Mundo Virtual: Uma Reflexão sobre a Relação Intersubjetiva a partir de Avatares</div>
+            </div>
+            <div class="presenter-subtitle" style="background: #e8f4f8; padding: 2px 4px; margin: 3px 0;">Levinas "entre nós"- desafios da ética da alteridade e do nascimento latente do instituído</div>
+            <div class="presenter">
+                <span class="presenter-name">João Gouveia</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">A transcendência como problema na filosofia de Emmanuel Levinas</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Pedro Vilar</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Fenomenologia e para-além da Fenomenologia em E. Levinas – partindo de Miguel Abensour</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Ricardo Félix</span> <span class="presenter-affiliation">(Independent)</span>
+                <div class="presenter-title">Aquém e para além da religião</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - FILOSOFIA RELIGIÃO/HISTÓRIA ANTIGA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Gianluigi Segalerba</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Aristotle's New Ontology</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Modesto Gomez-Alonso</span> <span class="presenter-affiliation">(U. Sevilla)</span>
+                <div class="presenter-title">A Newmanian Model for Quasi-Fideism: Parity Arguments and the Ground of Religious Certainty</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Veronica Sytnik</span> <span class="presenter-affiliation">(HSE U.)</span>
+                <div class="presenter-title">Virtual reality and virtual religion: different approaches</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Sofia Carvalho</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Teixeira de Pascoaes: um agressor de Plotino</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - LÓGICA/FILOSOFIA MATEMÁTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Francisca Silva</span> <span class="presenter-affiliation">(St Andrews/Lisboa)</span>
+                <div class="presenter-title">Probability Calculus for Degrees of Grasp of a Subject Matter</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Ivan Restović</span> <span class="presenter-affiliation">(IP Zagreb)</span>
+                <div class="presenter-title">Logic as a Feminist Nightmare</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Iulian Toader</span> <span class="presenter-affiliation">(U. Vienna)</span>
+                <div class="presenter-title">The conservative core of Hilbertian formalism</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="special-event">
+        <strong>16:30-18:30 - REUNIÕES</strong><br>
+        Anfiteatro I: Unidades de Investigação | C135A: Associações Filosóficas | Sala de Actos: Associação Portuguesa de Filosofia Política
+    </div>
+    
+    <div class="special-event">
+        <strong>20:00 - Jantar do Congresso</strong>
+    </div>
+
+    <h2>DIA 3 - SETEMBRO</h2>
+    
+    <div class="keynote">
+        <div class="time-slot">09:00-10:00 - Sessão Plenária (Anfiteatro I)</div>
+        <strong>Genia Schönbaumsfeld</strong> (Southampton) | Moderadora: Filipa Afonso<br>
+        <em style="font-size: 10px;">Abstract: In works attributed to the pseudonym, Johannes Climacus – De Omnibus Dubitandum Est and Concluding Unscientific Postscript – Kierkegaard introduces us to the notion of 'dialectical intrepidity'...</em>
+    </div>
+    
+    <h3>10:00-12:30 - Sessões Paralelas</h3>
+    <div class="session-grid">
+        <div class="session-box">
+            <h4>C135A - FILOSOFIA POLÍTICA</h4>
+            <div class="presenter">
+                <span class="presenter-name">José Milheiro</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">Democracy after the death of God: proceduralism, transformation and leadership in the thought of Max Weber and Jospeh Schumpeter.</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">José Fernández-del-Barrio</span> <span class="presenter-affiliation">(IFS-CSIC)</span>
+                <div class="presenter-title">Nativism and (masculine) resentment: analyzing identity politics and the cultural battle of national-populism</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Julia Alhinho</span> <span class="presenter-affiliation">(U. Nova)</span>
+                <div class="presenter-title">Pathologies of democracy or the rise of the capitalist cosmopolis</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Tomás Correia</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Power, Norms and Normalization in Michel Foucault's Genealogies</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C136A - EPISTEMOLOGIA/FILOSOFIA CIÊNCIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Elena del Castillo</span> <span class="presenter-affiliation">(UCM/CSIC)</span>
+                <div class="presenter-title">Argumentation and algorithmic systems: the introduction of algorithmic systems and their biases in decision-making</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Jack Madock</span> <span class="presenter-affiliation">(U. Florida)</span>
+                <div class="presenter-title">Sturdy Beliefs</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Guido Tana</span> <span class="presenter-affiliation">(U. Nova/IUSS)</span>
+                <div class="presenter-title">Disagreement about Philosophy: A Pyrrhonian Account</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Agnieszka Lekka-Kowalik</span> <span class="presenter-affiliation">(JP II CUL)</span>
+                <div class="presenter-title">Reforming and Renorming Science: From CUDOS and PLACE to PRICE</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C137 - FILOSOFIA MENTE/CIÊNCIA</h4>
+            <div class="presenter">
+                <span class="presenter-name">Isadora Monteiro</span> <span class="presenter-affiliation">(U. Lisboa)</span>
+                <div class="presenter-title">Ciência Moderna em perspetiva: a tese de Zilsel</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Maria Iennaco</span> <span class="presenter-affiliation">(USP/Porto)</span>
+                <div class="presenter-title">Towards a Biogenic Approach to Attention</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Rituparna Roy</span> <span class="presenter-affiliation">(U. Porto)</span>
+                <div class="presenter-title">Awareness Of Awareness Thesis and Self-Representationalism</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Savvas Ioannou</span> <span class="presenter-affiliation">(U. Cyprus)</span>
+                <div class="presenter-title">Consciousness and the Ability to Be Conscious</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138A - FILOSOFIA DA LINGUAGEM</h4>
+            <div class="presenter">
+                <span class="presenter-name">Henrique Ribeiro</span> <span class="presenter-affiliation">(U. Coimbra)</span>
+                <div class="presenter-title">Como argumentar consistemente segundo o relativismo</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Afra Ríos</span> <span class="presenter-affiliation">(IJN, ENS)</span>
+                <div class="presenter-title">"Read the Room!" o la habilidad de ponerse en la misma página</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Taciane Domingues</span> <span class="presenter-affiliation">(USP)</span>
+                <div class="presenter-title">Língua ou Linguagem? Problemas conceituais de Tradução em Wilhelm von Humboldt e a aplicação do princípio transcendental na Filosofia da Linguagem</div>
+            </div>
+        </div>
+        
+        <div class="session-box">
+            <h4>C138B - FILOSOFIA PRÁTICA/AFRICANA/ENSINO</h4>
+            <div class="presenter-subtitle" style="color: #7f8c8d; font-weight: bold;">FILOSOFIA POLÍTICA</div>
+            <div class="presenter">
+                <span class="presenter-name">Paulo Antunes</span> <span class="presenter-affiliation">(U. Minho)</span>
+                <div class="presenter-title">Philosophy of Sport: Entre a Perspetiva "Internalista" e a Influência Social – Uma Análise Crítica</div>
+            </div>
+            <div class="presenter">
+                <span class="presenter-name">Antônio Lima</span> <span class="presenter-affiliation">(UFOP)</span>
+                <div class="presenter-title">Os campos de concentração da seca no Ceará (Brasil) como materialização da necropolític</div>
+            </div>
+            <div class="presenter-subtitle" style="color: #7f8c8d; font-weight: bold;">FILOSOFIA AFRICANA</div>
+            <div class="presenter">
+                <span class="presenter-name">Fidel Jorge</span> <span class="presenter-affiliation">(UBI)</span>
+                <div class="presenter-title">Identidade Africana Contemporânea e Cosmopolitismo em Appiah</div>
+            </div>
+            <div class="presenter-subtitle" style="color: #7f8c8d; font-weight: bold;">ENSINO DA FILOSOFIA</div>
+            <div class="presenter">
+                <span class="presenter-name">Joana Sousa</span> <span class="presenter-affiliation">(Filocriatividade)</span>
+                <div class="presenter-title">Polarização: a neutralidade é possível? – considerações em torno da Filosofia para/com Crianças e Jovens e do papel da pessoa facilitadora</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="break">12:30 - ALMOÇO (Livre)</div>
+    
+    <div class="keynote">
+        <div class="time-slot">14:30-16:30 - Sessão Plenária (Anfiteatro I)</div>
+        <strong>Olga Pombo</strong> (ULisboa) | Moderador: André Barata
+    </div>
+    
+    <div class="special-event">
+        <strong>16:30 - SESSÃO DE ENCERRAMENTO</strong><br>
+        André Barata (Presidente SPF) | Ricardo Santos (Diretor CFUL)
+    </div>
+</body>
+</html>
